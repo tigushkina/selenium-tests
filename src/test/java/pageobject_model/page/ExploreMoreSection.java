@@ -35,8 +35,7 @@ public class ExploreMoreSection {
     }
 
     public int exploreItemsCount() {
-        int exploreMoreItems = 0;
-
-        return exploreMoreItems;
+        List<WebElement> items = driver.findElements(By.xpath("//section[@id='explore-hub']//a"));
+        return items.size();
     }
 }

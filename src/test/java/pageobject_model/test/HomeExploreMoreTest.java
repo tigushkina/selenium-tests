@@ -18,9 +18,8 @@ public class HomeExploreMoreTest {
 
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-
         driver.manage().window().maximize();
-//        driver.get("https://yahoo.com");
+        driver.get("https://yahoo.com");
 //        Object result = ((JavascriptExecutor) driver)
 //                .executeScript("return window.jQuery != null;");
 //        System.out.println("jQuery loaded? " + result);
@@ -34,7 +33,7 @@ public class HomeExploreMoreTest {
                 .waitForExploreSection()
                 .exploreItemsCount();
 
-        Assert.assertTrue("elements are not loaded in the Explore section",true);
+        Assert.assertTrue("elements are not loaded in the Explore section",expectedExploreMoreItemsNumber>0);
 
     }
 
