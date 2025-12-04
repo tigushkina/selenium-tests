@@ -23,8 +23,6 @@ public class YahooHomePage {
 
 
 
-    
-
     public YahooHomePage openPage() {
         driver.get(HOMEPAGE_URL);
         Object result = ((JavascriptExecutor) driver)

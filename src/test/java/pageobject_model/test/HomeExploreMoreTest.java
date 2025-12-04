@@ -28,7 +28,7 @@ public class HomeExploreMoreTest {
         }
     @Test
     public void exploreMoreElementsTest(){
-        //to work
+
         int expectedExploreMoreItemsNumber = new ExploreMoreSection(driver)
                 .waitForExploreSection()
                 .exploreItemsCount();
