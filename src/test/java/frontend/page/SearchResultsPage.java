@@ -1,4 +1,4 @@
-package pageobject_model.page;
+package frontend.page;
 
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;

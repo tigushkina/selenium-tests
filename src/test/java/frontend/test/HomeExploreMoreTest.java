@@ -1,4 +1,4 @@
-package pageobject_model.test;
+package frontend.test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -7,8 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pageobject_model.page.ExploreMoreSection;
-import pageobject_model.page.YahooHomePage;
+import frontend.page.ExploreMoreSection;
 
 public class HomeExploreMoreTest {
     private WebDriver driver;

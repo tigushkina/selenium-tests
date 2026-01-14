@@ -1,4 +1,4 @@
-package pageobject_model.test;
+package frontend.test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;

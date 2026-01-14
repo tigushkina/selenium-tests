@@ -1,4 +1,4 @@
-package pageobject_model.page;
+package frontend.page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
@@ -11,7 +11,6 @@ import org.openqa.selenium.support.ui.Wait;
 import java.time.Duration;
 import java.util.List;
 import java.util.NoSuchElementException;
-import java.util.function.Function;
 
 public class ExploreMoreSection {
     private WebDriver driver;

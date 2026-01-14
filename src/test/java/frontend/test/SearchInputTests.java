@@ -1,11 +1,11 @@
-package pageobject_model.test;
+package frontend.test;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageobject_model.base.BaseTest;
+import frontend.base.BaseTest;
 
 import java.time.Duration;
 
